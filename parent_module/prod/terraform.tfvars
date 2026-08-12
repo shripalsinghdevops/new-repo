@@ -1,10 +1,10 @@
 rgs = {
 
-rg1 = {
+  rg1 = {
 
-    name = "shri"
+    name     = "shri"
     location = "centralindia"
-}
+  }
 }
 
 vnet = {
@@ -16,20 +16,20 @@ vnet = {
 
   }
 }
-subnet ={
-subnet1 ={
-subnet_name                 = "frontend_remote"
-resource_group_name  = "shri"
-virtual_network_name = "vnet2"
-address_prefixes     = ["10.1.1.0/24"]
+subnet = {
+  subnet1 = {
+    subnet_name          = "frontend_remote"
+    resource_group_name  = "shri"
+    virtual_network_name = "vnet2"
+    address_prefixes     = ["10.1.1.0/24"]
 
-}
+  }
 
-subnet2 ={
-subnet_name                 = "backend"
-resource_group_name  = "shri"
-virtual_network_name = "vnet1"
-address_prefixes     = ["10.0.2.0/24"]
+  subnet2 = {
+    subnet_name          = "backend"
+    resource_group_name  = "shri"
+    virtual_network_name = "vnet1"
+    address_prefixes     = ["10.0.2.0/24"]
 
-    }
+  }
 }
